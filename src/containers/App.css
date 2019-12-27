@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+.main-title,
+.load {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+    color: rgb(255, 155, 120);
+}
+
+@media screen and (max-width: 375px) {
+    .main-title,
+    .load {
+        font-size: 1.5em;
+    }
+}

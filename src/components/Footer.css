@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+#m-footer {
+    font-family: 'Inconsolata', monospace;
+}
+
+#m-footer a {
+    text-decoration: none;
+    color: white;
+    margin-right: 3px;
+}
+
+#m-footer a:hover {
+    text-decoration: underline;
+}
