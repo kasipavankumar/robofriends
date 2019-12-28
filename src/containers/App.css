@@ -7,9 +7,27 @@
     color: rgb(255, 155, 120);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) and (min-width: 240px) {
+    .main-title,
+    .load {
+        font-size: 1.2em;
+    }
+
+    .search {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
     .main-title,
     .load {
         font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .main-title,
+    .load {
+        font-size: 2em;
     }
 }
