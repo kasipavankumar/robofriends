@@ -7,6 +7,32 @@
     color: rgb(255, 155, 120);
 }
 
+.search {
+    font-size: 20px;
+}
+
+/* @media screen and (max-width: 180px) and (min-width: 100px) {
+    .main-title,
+    .load {
+        font-size: 0.8em;
+    }
+
+    .search {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 240px) and (min-width: 180px) {
+    .main-title,
+    .load {
+        font-size: 1em;
+    }
+
+    .search {
+        font-size: 10px;
+    }
+} */
+
 @media screen and (max-width: 320px) and (min-width: 240px) {
     .main-title,
     .load {
